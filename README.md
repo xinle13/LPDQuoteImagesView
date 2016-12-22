@@ -4,6 +4,7 @@
 1.引入头文件LPDQuoteSystemImagesView.h
 
 2.在一个controller类里， 初始化一个quoteSystemImagesView (UIview)
+
 LPDQuoteSystemImagesView *quoteSystemImagesView = [[LPDQuoteSystemImagesView alloc] initWithFrame:CGRectMake(x, y, width, hight) withCountPerRowInView:countPerRow cellMargin:12];
 //初始化view的frame, view里每行cell个数， cell间距
     quoteSystemImagesView.maxSelectedCount = 6; 
