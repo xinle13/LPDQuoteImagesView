@@ -22,4 +22,6 @@ LPDQuoteSystemImagesView *quoteSystemImagesView = [[LPDQuoteSystemImagesView all
  
  ////只需要贴上view，其他的在图库选照片，预览，保存，更新缩略图均不需要其他对象参与；
 效果图
-
+![image](https://github.com/Assuner-Lee/LPDQuoteSystemImagesView/blob/master/IMG_0878(20161222-160941).jpg)
+![image](https://github.com/Assuner-Lee/LPDQuoteSystemImagesView/blob/master/IMG_0876.PNG)
+![image](https://github.com/Assuner-Lee/LPDQuoteSystemImagesView/blob/master/IMG_0877.PNG)
