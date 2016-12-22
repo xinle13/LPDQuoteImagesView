@@ -1,5 +1,5 @@
 # LPDQuoteSystemImagesView
-(imagePicker--pickImage and quote)只需要几行简单的代码，就可以引入多选照片(仿qq微信)并引用照片的功能模块(只需要贴上view，就获得了全部).这里要感谢TZImagePickerController！！  所有的功能都集成到了黑盒里，只需要初始化view和取得view的已选择照片属性。
+(imagePicker--pickImage and quote)只需要几行简单的代码，就可以引入多选照片(仿qq微信)并引用照片的功能模块(只需要贴上view，就获得了全部).这里要感谢TZImagePickerController！！  所有的功能都集成到了黑盒里，只需要初始化view和取得view的已选择照片数组。
 
 简单介绍下用法（目前）
 1.引入头文件LPDQuoteSystemImagesView.h
@@ -21,4 +21,5 @@ LPDQuoteSystemImagesView *quoteSystemImagesView = [[LPDQuoteSystemImagesView all
  //即可
  
  ////只需要贴上view，其他的在图库选照片，预览，保存，更新缩略图均不需要其他对象参与；
-     
+效果图
+
