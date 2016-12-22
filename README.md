@@ -6,13 +6,13 @@
 2.在一个controller类里， 初始化一个quoteSystemImagesView (UIview)
 LPDQuoteSystemImagesView *quoteSystemImagesView = [[LPDQuoteSystemImagesView alloc] initWithFrame:CGRectMake(x, y, width, hight) withCountPerRowInView:countPerRow cellMargin:12];
 //初始化view的frame, view里每行cell个数， cell间距
-    self.quoteSystemImagesView.maxSelectedCount = 6; 
+    quoteSystemImagesView.maxSelectedCount = 6; 
     //最大可选照片数
-     self.quoteSystemImagesView.collectionView.scrollEnabled = NO;
+     quoteSystemImagesView.collectionView.scrollEnabled = NO;
     //view可否滑动 
-    self.quoteSystemImagesView.navcDelegate = self;
+    quoteSystemImagesView.navcDelegate = self;
     //委托（委托controller弹出picker，且不用实现委托方法）
-    [xview addSubview:self.quoteSystemImagesView];
+    [xview addSubview:quoteSystemImagesView];
     //把view加到某一个视图上
     
 3.获取引用图片  
