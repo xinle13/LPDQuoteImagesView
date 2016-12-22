@@ -24,6 +24,6 @@ LPDQuoteSystemImagesView *quoteSystemImagesView = [[LPDQuoteSystemImagesView all
  
 效果图
 
-![image](https://github.com/Assuner-Lee/LPDQuoteSystemImagesView/blob/master/IMG_0878(20161222-160941).jpg)
-![image](https://github.com/Assuner-Lee/LPDQuoteSystemImagesView/blob/master/IMG_0876.PNG)
-![image](https://github.com/Assuner-Lee/LPDQuoteSystemImagesView/blob/master/IMG_0877.PNG)
+![image](https://github.com/Assuner-Lee/LPDQuoteSystemImagesView/blob/master/效果图1.jpg)
+![image](https://github.com/Assuner-Lee/LPDQuoteSystemImagesView/blob/master/效果图2.PNG)
+![image](https://github.com/Assuner-Lee/LPDQuoteSystemImagesView/blob/master/效果图3.PNG)
