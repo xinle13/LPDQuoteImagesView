@@ -1,7 +1,7 @@
 https://github.com/Assuner-Lee/LPDQuoteSystemImagesView
-
+简书详细介绍：http://www.jianshu.com/p/2b9086d2c37b
 # LPDQuoteSystemImagesView
-(iOS-imagePicker仿qq仿微信--pickImage and quote)只需要几行简单的代码，就可以引入多选照片并引用照片的功能模块(只需要贴上view，就获得了全部).  所有的功能都集成到了黑盒里，你需要做的只是初始化quoteview和取得quoteview 的已选择图片数组。（整个库包含必需资源只有270k，下载后请删除效果图和解压那个包含bundle的zip<包含一些小图标>）
+(iOS-imagePicker仿qq仿微信--pickImage and quote)只需要几行简单的代码，就可以引入多选照片并引用照片的功能模块(贴上一个view，就获得了全部).  所有的功能都集成到了黑盒里，你需要做的只是初始化quoteview和取得quoteview 的已选择图片数组。（整个库包含必需资源只有270k，下载后请删除效果图和解压那个包含bundle的zip<包含一些小图标>）
 
 这是贴上去的quoteView  (图片1)
 ![image](https://github.com/Assuner-Lee/LPDQuoteSystemImagesView/blob/master/效果图1.jpg)
