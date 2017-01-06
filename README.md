@@ -4,9 +4,9 @@ https://github.com/Assuner-Lee/LPDQuoteSystemImagesView
 # LPDQuoteSystemImagesView
 (iOS-imagePicker仿qq仿微信--pickImage and quote)只需要几行简单的代码，就可以引入多选照片并引用照片的功能模块(贴上一个view，就获得了全部).  所有的功能都集成到了黑盒里，你需要做的只是初始化quoteview和取得quoteview 的已选择图片数组。（整个库包含必需资源只有270k，下载后请删除效果图和解压那个包含bundle的zip<包含一些小图标>）
 
-这是贴上去的quoteView  (图片1)
+这是贴上去的quoteView  (图片1红框内)
 ![image](https://github.com/Assuner-Lee/LPDQuoteSystemImagesView/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE%EF%BC%881%EF%BC%89.jpg)
-这就是quoteView贴上去的效果，可以 点击可以选择或预览照片，点击右上角删除，可以通过引用这个view的selectedPhotos属性得到UIimage数组，保存或上传!
+这就是quoteView贴上去的效果，点击可以选择或预览照片，点击右上角删除，可以通过引用这个view的selectedPhotos属性得到UIimage数组，保存或上传!
 
 
 简单介绍下用法（目前）
@@ -14,7 +14,7 @@ https://github.com/Assuner-Lee/LPDQuoteSystemImagesView
 1>.引入头文件
 
 #import "LPDQuoteSystemImagesView.h"
-2>.在一个controller类里， 初始化一个quoteSystemImagesView (UIview)
+2>. 初始化一个quoteSystemImagesView (UIview)
 
 LPDQuoteSystemImagesView *quoteSystemImagesView =[[LPDQuoteSystemImagesView alloc] initWithFrame:CGRectMake(x, y, width, hight) withCountPerRowInView:5 cellMargin:12];
 //初始化view的frame, view里每行cell个数， cell间距（上方的图片1 即为quoteSystemImagesView）
