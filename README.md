@@ -8,13 +8,13 @@
 
 ## 用法简绍
 
-1. 引入头文件
+##### 1. 引入头文件
 
 ```
 #import "LPDQuoteSystemImagesView.h"
 ```
 
-2. 初始化一个 quoteSystemImagesView (UIview)
+##### 2. 初始化一个 quoteSystemImagesView (UIview)
 
 ```
 LPDQuoteSystemImagesView *quoteSystemImagesView =[[LPDQuoteSystemImagesView alloc] initWithFrame:CGRectMake(x, y, width, hight) withCountPerRowInView:5 cellMargin:12];
@@ -33,7 +33,7 @@ quoteSystemImagesView.navcDelegate = self;    //self 至少是一个控制器。
 //把view加到某一个视图上，就什么都不用管了！！！！
 ```
 
-3. 获取引用图片
+##### 3. 获取引用图片
 
 ```
 NSArray *imageArray = [NSArray arrayWithArray:quoteSystemImagesView.selectedPhotos];
