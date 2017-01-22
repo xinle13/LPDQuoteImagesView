@@ -48,9 +48,9 @@ NSArray *imageArray = [NSArray arrayWithArray:quoteSystemImagesView.selectedPhot
 
 ## 效果图
 
-![选照片界面](https://github.com/Assuner-Lee/LPDQuoteSystemImagesView/blob/master/效果图2.PNG)
-
-![预览功能](https://github.com/Assuner-Lee/LPDQuoteSystemImagesView/blob/master/效果图3.PNG)
+![](![选照片界面](https://github.com/Assuner-Lee/LPDQuoteSystemImagesView/blob/master/效果图2.PNG))|![](
+![预览功能](https://github.com/Assuner-Lee/LPDQuoteSystemImagesView/blob/master/效果图3.PNG))
+:-------------------------:|:-------------------------:
 
 选中照片，蓝色框还有动画效果。。。。
 
