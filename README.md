@@ -69,7 +69,7 @@ NSArray *imageArray = [NSArray arrayWithArray:quoteSystemImagesView.selectedPhot
 
 ## 效果图
 
-![选照片界面](http://upload-images.jianshu.io/upload_images/4133010-b157af5c2d236b93.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|![预览功能](http://upload-images.jianshu.io/upload_images/4133010-7c61ea6aeda57faf.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![选照片界面](http://s16.sinaimg.cn/large/005X2n9mzy77q3CsAmb0f&690)|![预览功能](http://s7.sinaimg.cn/large/005X2n9mzy77q3CLZFc76&690)
 :-------------------------:|:-------------------------:
 
 选中照片，蓝色框还有动画效果。。。。
