@@ -10,7 +10,7 @@
 #import "LPDQuoteImagesView.h"
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 
-@interface LPDViewController ()
+@interface LPDViewController () <LPDQuoteImagesViewDelegate>
 
 @end
 
@@ -25,7 +25,7 @@
     [self.view addSubview:view1];
     
     LPDQuoteImagesView *view2 = [[LPDQuoteImagesView alloc] initWithFrame:CGRectMake(0, 100, RELATIVE_VALUE(220), RELATIVE_VALUE(70)) withCountPerRowInView:3 cellMargin:12];
-    view2.collectionView.scrollEnabled = NO
+    view2.collectionView.scrollEnabled = NO;
     view2.navcDelegate = self;
     view2.maxSelectedCount = 3;
     [self.view addSubview:view2];
