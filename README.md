@@ -23,7 +23,7 @@ pod "LPDQuoteImagesView"
 
 `iOS-imagePicker 仿 QQ 仿微信-- pickImage and quote` 只需要几行简单的代码，就可以引入多选照片并引用照片的功能模块，贴上一个view，就获得了全部。所有的功能都集成到了黑盒里，你需要做的只是初始化 quoteview 和取得 quoteview 的已选择图片数组。
 
-![这是贴上去的 quoteView (红框内)](https://github.com/Assuner-Lee/LPDQuoteSystemImagesView/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE%EF%BC%881%EF%BC%89.jpg)
+![这是贴上去的 quoteView (红框内)](http://upload-images.jianshu.io/upload_images/4133010-e5799195cde015c7.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 上图就是 quoteView 贴上去的效果，点击可以选择或预览照片，点击右上角删除，可以通过引用这个 view 的 selectedPhotos 属性得到 UIImage 数组，保存或上传!
 
@@ -69,7 +69,7 @@ NSArray *imageArray = [NSArray arrayWithArray:quoteSystemImagesView.selectedPhot
 
 ## 效果图
 
-![选照片界面](https://github.com/Assuner-Lee/LPDQuoteSystemImagesView/blob/master/效果图2.PNG)|![预览功能](https://github.com/Assuner-Lee/LPDQuoteSystemImagesView/blob/master/效果图3.PNG)
+![选照片界面](http://upload-images.jianshu.io/upload_images/4133010-b157af5c2d236b93.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|![预览功能](http://upload-images.jianshu.io/upload_images/4133010-7c61ea6aeda57faf.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 :-------------------------:|:-------------------------:
 
 选中照片，蓝色框还有动画效果。。。。
