@@ -7,67 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02F37B1DAC8E674FA92581DB91EB2A5E /* LPDPhotoPreviewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E5C5EFDB80ABEDA838D2AE00E291C23 /* LPDPhotoPreviewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00F0E86CD7E930C3544E39B2BF204BCC /* LPDQuoteImagesView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6828CED6A49D753D731D57BCB810B085 /* LPDQuoteImagesView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0313A6FDB095840BC197EF37340E799C /* LPDPhotoPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA1D3136E9605FB8E8421830F1299FF /* LPDPhotoPickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0520FC2D2383C0CE4728169C5D8B3EBE /* LPDQuoteImagesView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B64EF43AD03E47077E0547277104378 /* LPDQuoteImagesView-dummy.m */; };
+		054C33C0970ECAB83E285B4A229B4435 /* LPDVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A182CC19D9E2B4FA4615535EAE0178 /* LPDVideoPlayerController.m */; };
 		078B577923260136C42F149FEABE29A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		0837FBAF185B6B6B9992234B6184141D /* LPDPhotoArrangeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F207707038C68EF0A208DDDD2DA3018 /* LPDPhotoArrangeCell.m */; };
-		1A7B10C4702F4C41FC40D794D3E5EB3B /* LPDAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F881D2D1C93D88937F785ADF992972 /* LPDAssetCell.m */; };
-		1EF6B1E2F2DBD2C7D10D4853E2165242 /* UIView+HandyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = E67D4302A7B9212D8FC31137F6E84DC9 /* UIView+HandyValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		217D8F62FDA3648A5961CB21EC65E30D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D06402BF2BBF56CD1796055DAC724906 /* Localizable.strings */; };
-		26C1A92659BFAE6EE795C249E04AD45E /* LPDAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 154A3627E9E0DFE941426DCD1FA1393E /* LPDAssetModel.m */; };
-		295CE28CEF3760AF51ED34238F3AE3B8 /* LPDImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 57C5EBB997720E90ABDD35E61B6949D6 /* LPDImagePickerController.bundle */; };
-		31A70CEE1676FA9F0734437D12008BBC /* LPDPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA19FA10AA08344B3FCA2376444DA80C /* LPDPhotoPreviewController.m */; };
+		080EEA2137F2CD79EE8EAA19CBD07055 /* LPDPhotoArrangeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F207707038C68EF0A208DDDD2DA3018 /* LPDPhotoArrangeCell.m */; };
+		0BBB51D51E6F46393EDE9F6BEC952A7F /* LPDPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0048F99B8CB347934A15F1514E7BD32 /* LPDPhotoPreviewCell.m */; };
+		17001C0E1216EF4E213A272B7BDFE834 /* LPDPhotoPreviewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E5C5EFDB80ABEDA838D2AE00E291C23 /* LPDPhotoPreviewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17A3C738C27D8C86F359CB7A1841F105 /* LPDImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C26F517D4E38565CB083311610C6896 /* LPDImageManager.m */; };
+		1C5C3F5C983DE2918253147C6B580242 /* LPDAssetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 39477E958F0FEF7652327646C1724B81 /* LPDAssetCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26ED371D19FACE7CD3C6F642313BF73D /* LPDImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 32D3853035EF8F522D403819A1C0887A /* LPDImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF58AEE115229528AABE4FB445C18F6 /* LPDQuoteImagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAFD553B39E13F9AEA0CD5D8E8AA61 /* LPDQuoteImagesView.m */; };
+		2EF5CF2EE5F35BC6689DFF0B3FAF1A78 /* LPDPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE8FDDFE3AD300AC4273DB0463D182 /* LPDPhotoPickerController.m */; };
 		357F42DC534C42C75B8CDDDAE21B82C1 /* Pods-LPDQuoteImagesView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C38982AE86D98D7119F4FAB7E30AE04 /* Pods-LPDQuoteImagesView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3DCBE5302239AB2976499DDD3378CA44 /* LPDQuoteImagesView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63375527D43DF03B5B2B708E9DA83F08 /* LPDQuoteImagesView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EAD645E573D5B4BFAB8EF82368813B2 /* LPDVideoPreviewPlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCE6043598B9EC4C61AAB2C4B9F7E0A /* LPDVideoPreviewPlay@2x.png */; };
-		45C2327B656600D5C6338941A3912B61 /* photo_number_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 559CEFA1066AB1F51EB9339E1513ECBA /* photo_number_icon@2x.png */; };
-		4A0865C8B18B877844B25998F30F7553 /* nookDeleteBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AA2EB19930596B8EBF69DEFE39EB67 /* nookDeleteBtn@2x.png */; };
-		4C05C66AFEFBBD2DC6F7A788560C2EED /* LPDPhotoArrangeCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB84ED1CE652E26BBF3537EB8B47C88 /* LPDPhotoArrangeCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52C78D48EC72F7282E9E28068FED5777 /* TableViewArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 705021B8388B164E3AC277EA1CB5787E /* TableViewArrow@2x.png */; };
-		530D780944FDEB2C77EB6A49C1494D25 /* UIView+HandyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = D85DFAA0E73AB39C6FE30C30BE36AB5E /* UIView+HandyValue.m */; };
-		54E315544754D825F3DA6BF9A3904861 /* LPDProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D5640488F22C1E21605F857A54797C0 /* LPDProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5553215E996D0BBCE4734310EF527431 /* LPDVideoPlayerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DEAD58947C4DC18D3255CCE21A6C75 /* LPDVideoPlayerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B42F7D6B81CADA995EBE8E199B72297 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		5E08A7BE7868F77764FBFAB53905A142 /* NSBundle+LPDImagePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EF5A9CA7DEBF446033A89D5FF85E89D /* NSBundle+LPDImagePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E4AB88D88F677D5F6A2EE1774AF0532 /* LPDImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C26F517D4E38565CB083311610C6896 /* LPDImageManager.m */; };
-		6A28A2E5B7A6081141E8AAC5D29172DA /* LPDPhotoArrangeCVlLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FCF88E857A4660D980109FC53E4D93C /* LPDPhotoArrangeCVlLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		77DE58FC99286A74365DC65575084873 /* preview_original_def@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF0C57E536BFD4C36D77B88937A90210 /* preview_original_def@2x.png */; };
-		7B9B60AD08CD2435B0864D7E5F2FDF41 /* LPDAssetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 846A65788D764160D2C6DFA04431C435 /* LPDAssetModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C7E9BCF4B0A3C61242036DFC3AB59C1 /* LPDPhotoPreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C63D57C22C1CCE01FE8EBA91887AC31 /* LPDPhotoPreviewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FBE643DFA1455D28E07AA37390978FC /* LPDPhotoArrangeCVlLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A025A74BB397568ECA330A34B4A1426A /* LPDPhotoArrangeCVlLayout.m */; };
-		8076CB897A2D039FC29B72AC92FF1772 /* UIImage+MyBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F731972BA45D9AEED44EB7A545705D /* UIImage+MyBundle.m */; };
-		8CE1D8B9CE3CDC2EC936E414370B1559 /* LPDProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF8C1AD5D1AB69A3ECB7AD284A51302 /* LPDProgressView.m */; };
-		907B344F971BAA7A1C0D78F3F9ADB43B /* LPDImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 479F2C2DDE30B79635FA75F594ECD7B4 /* LPDImagePickerController.m */; };
+		36D932303782F382E554B20D3AC7AA92 /* LPDQuoteImagesView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63375527D43DF03B5B2B708E9DA83F08 /* LPDQuoteImagesView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58132BED6B41F2BAF068B2D3A676E7A6 /* LPDPhotoArrangeCVlLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FCF88E857A4660D980109FC53E4D93C /* LPDPhotoArrangeCVlLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B9512D5ECF7C694AFD617D15DBD7E8C /* LPDPhotoPreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C63D57C22C1CCE01FE8EBA91887AC31 /* LPDPhotoPreviewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E95C609E5B3462B8094D2DB4930D028 /* LPDImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 479F2C2DDE30B79635FA75F594ECD7B4 /* LPDImagePickerController.m */; };
+		637754ADCBFEDA0389824B84B5E834EE /* LPDProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D5640488F22C1E21605F857A54797C0 /* LPDProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		781A8E8A869C9BA41AE61A8A53825297 /* NSBundle+LPDImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F5D606D013833BF9A546A3ABB2BF67 /* NSBundle+LPDImagePicker.m */; };
+		78A5818D4E563984EDF2533F9B43F354 /* LPDProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF8C1AD5D1AB69A3ECB7AD284A51302 /* LPDProgressView.m */; };
+		8ACAB64686EAF54C44339815D7EF992E /* LPDVideoPlayerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DEAD58947C4DC18D3255CCE21A6C75 /* LPDVideoPlayerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EC2F8EFD1F09C382BEEA13B1CF04A9F /* UIImage+MyBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 958080432648A0609BD230E69828F63B /* UIImage+MyBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		921C1D6DC32C9919348024784AA1955D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		A161465028E24FCC4A0CF3C4597941D7 /* nookDeleteBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CFF983B693123C5C010DDE8CEB09F35 /* nookDeleteBtn.png */; };
-		A65961C4CB815334B9D6D7C435280658 /* Root.plist in Resources */ = {isa = PBXBuildFile; fileRef = F09B9E534C483AAF1FCBC5F8748432E2 /* Root.plist */; };
-		A9A0FFCD91F7A8EB3F5DC84FD3106155 /* LPDQuoteImagesView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6828CED6A49D753D731D57BCB810B085 /* LPDQuoteImagesView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD47BDC4EB6B5A2870B5DCCA9D8274E0 /* AlbumAddBtn@1.5x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1AE42DE1A0E27489E54D852919189B2 /* AlbumAddBtn@1.5x.png */; };
-		B418553B17DF6B7C70266798D82B2585 /* nookDeleteBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5560C88FD0750D931B16CFFFDF3175C6 /* nookDeleteBtn@3x.png */; };
-		B671F67548035D411AB71C95F02B40BC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 569BF4441A30E43A44A2623DC12253BE /* Localizable.strings */; };
-		C1625EB9E04857B7A3ED10B7D1A21C92 /* LPDPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE8FDDFE3AD300AC4273DB0463D182 /* LPDPhotoPickerController.m */; };
-		C19E7796138FEE1C15BDA930EECA9A98 /* LPDAssetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 39477E958F0FEF7652327646C1724B81 /* LPDAssetCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1EA03EF875A8AB538ED3ADD997DEF91 /* photo_original_def@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8FF7D4D0A0FCD585FA19EDA6C92D64 /* photo_original_def@2x.png */; };
-		C33327AB5EBBAE181610567F53B6CF34 /* navi_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 194E9F9F278215F1302F3B2BB5C0BA36 /* navi_back@2x.png */; };
-		C461CC4CF054287FE43A60FCE1DA32C5 /* UIImage+MyBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 958080432648A0609BD230E69828F63B /* UIImage+MyBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9491B7519D201E154E58AE00A46ECB6 /* LPDPhotoPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA1D3136E9605FB8E8421830F1299FF /* LPDPhotoPickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA0C8FD60FA31212123D5E36DD683379 /* LPDVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A182CC19D9E2B4FA4615535EAE0178 /* LPDVideoPlayerController.m */; };
-		D1F78F3FBE4CB67E14AE641A97D95DF4 /* LPDImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 32D3853035EF8F522D403819A1C0887A /* LPDImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D72355C11C6E7561BEBCAE49B32824E3 /* LPDImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 566CA12776E60102007DC0871B031503 /* LPDImagePickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F95865EC3987CA069F8C44901CECEF4 /* LPDAssetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 846A65788D764160D2C6DFA04431C435 /* LPDAssetModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5DE006F0856D7A8F7B17B5A0696A18A /* LPDAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 154A3627E9E0DFE941426DCD1FA1393E /* LPDAssetModel.m */; };
+		A87DDD6E142461D05D454FB020B2A225 /* NSBundle+LPDImagePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EF5A9CA7DEBF446033A89D5FF85E89D /* NSBundle+LPDImagePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AACB2B7C9897EF5CCCEC1B21D52EABC0 /* LPDPhotoArrangeCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB84ED1CE652E26BBF3537EB8B47C88 /* LPDPhotoArrangeCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB78736BA222E2CF9384336DF40C05DC /* UIImage+MyBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F731972BA45D9AEED44EB7A545705D /* UIImage+MyBundle.m */; };
+		BC5EA81DE8ABDD1B8D3B9C0898F5FF5E /* LPDImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8002BF867EF7CCBE0ABEF2A4C62CC870 /* LPDImagePickerController.bundle */; };
+		D73E4FD55B743452FEEB8E49A4F21648 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		DEB9D2E66445599C20B033D741AE51A5 /* Pods-LPDQuoteImagesView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C009D117B87B37466C7F9E0E872483D /* Pods-LPDQuoteImagesView_Example-dummy.m */; };
-		DF6E979C5B038519024CF09A7D9DFAF3 /* LPDQuoteImagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAFD553B39E13F9AEA0CD5D8E8AA61 /* LPDQuoteImagesView.m */; };
-		DFAF960E1521AB7EAF0F92253207A9F7 /* VideoSendIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B62FAFA4A4E38B4C89CEB417BB550E9 /* VideoSendIcon@2x.png */; };
-		E1DA6B1A116B9B17977752FFD7D6BB3B /* photo_original_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3333392CE9D040BE7C76154586CC41 /* photo_original_sel@2x.png */; };
-		E1DCAC196D91BB4A21383C7ACDA03C6D /* photo_sel_photoPickerVc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB710661760D0E2224EA1D902081712E /* photo_sel_photoPickerVc@2x.png */; };
-		EA0B0B76D92DFFCCB509601041C6F589 /* AlbumAddBtn@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = D149FA6DF2E6223761842276A9320208 /* AlbumAddBtn@1x.png */; };
-		ED6F6EFF2ACBEB888B63C7FF498FB35C /* NSBundle+LPDImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F5D606D013833BF9A546A3ABB2BF67 /* NSBundle+LPDImagePicker.m */; };
-		F1AAAF51AAB21C7E9D01FA44392BAD40 /* LPDPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0048F99B8CB347934A15F1514E7BD32 /* LPDPhotoPreviewCell.m */; };
+		E217B3ED1101DEBCED0D1DCFBF9329A3 /* UIView+HandyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = D85DFAA0E73AB39C6FE30C30BE36AB5E /* UIView+HandyValue.m */; };
+		EE6BE6675DB9CE49D240CA692B1C3A04 /* LPDPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA19FA10AA08344B3FCA2376444DA80C /* LPDPhotoPreviewController.m */; };
+		EFB965CF7FC1B304592F8584AC5B1A48 /* LPDImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 566CA12776E60102007DC0871B031503 /* LPDImagePickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F29D2085CBE7CAFE53DD85CA993BE5C2 /* LPDPhotoArrangeCVlLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A025A74BB397568ECA330A34B4A1426A /* LPDPhotoArrangeCVlLayout.m */; };
 		F569465FF0A030025BC7822803320778 /* Pods-LPDQuoteImagesView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A22DCE8140BCD70038C702871B82F91 /* Pods-LPDQuoteImagesView_Tests-dummy.m */; };
-		F5C5ED66A216662D464551F3B1DF1758 /* LPDVideoPreviewPlayHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CECE42714D5A567BF1E0326228856FDD /* LPDVideoPreviewPlayHL@2x.png */; };
-		F5CB946B8CECD67222F794CBC2F3403F /* photo_def_photoPickerVc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0FD4225D27A7F3EC336EB88D763A892 /* photo_def_photoPickerVc@2x.png */; };
-		FA49C66AADC6EFF9D9CFA5668A82BC10 /* LPDQuoteImagesView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B64EF43AD03E47077E0547277104378 /* LPDQuoteImagesView-dummy.m */; };
 		FC2082BC415C00C65C7C14976FD4468F /* Pods-LPDQuoteImagesView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7617E30E987EAC2F1D018203889C601D /* Pods-LPDQuoteImagesView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC7FB699D718BBD8E4EBD2883025EAB5 /* AlbumAddBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 92434C3D5E3B9DD554436B4B133E0C95 /* AlbumAddBtn.png */; };
-		FCA8D8B91F429C4901494766BBC99A98 /* takePicture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E027C05AF162D5DDD627D548FCC14A44 /* takePicture@2x.png */; };
+		FCAA732359A6F773005FA049DE5A5152 /* LPDAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F881D2D1C93D88937F785ADF992972 /* LPDAssetCell.m */; };
+		FD5A0356848CEF4F24A0CEF2987A98D7 /* UIView+HandyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = E67D4302A7B9212D8FC31137F6E84DC9 /* UIView+HandyValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,22 +54,19 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7441ADB504A9DB70157152444A0E6333;
+			remoteGlobalIDString = D16FF1708A261A6539A8BCBFD42EAB98;
 			remoteInfo = LPDQuoteImagesView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0237688D5DD3A4C0F8323A1F65E80072 /* Pods-LPDQuoteImagesView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LPDQuoteImagesView_Tests-resources.sh"; sourceTree = "<group>"; };
-		03AA2EB19930596B8EBF69DEFE39EB67 /* nookDeleteBtn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "nookDeleteBtn@2x.png"; sourceTree = "<group>"; };
-		0B62FAFA4A4E38B4C89CEB417BB550E9 /* VideoSendIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "VideoSendIcon@2x.png"; sourceTree = "<group>"; };
 		0B7B186902F1A97430258F1F1A75BBF6 /* Pods-LPDQuoteImagesView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LPDQuoteImagesView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0C26F517D4E38565CB083311610C6896 /* LPDImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LPDImageManager.m; sourceTree = "<group>"; };
 		0EF5A9CA7DEBF446033A89D5FF85E89D /* NSBundle+LPDImagePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+LPDImagePicker.h"; sourceTree = "<group>"; };
 		11260F748E8B4996A489CFE260B899D5 /* Pods-LPDQuoteImagesView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LPDQuoteImagesView_Tests.modulemap"; sourceTree = "<group>"; };
 		154A3627E9E0DFE941426DCD1FA1393E /* LPDAssetModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LPDAssetModel.m; sourceTree = "<group>"; };
 		1823047C326C818CC87041410BDBDBA7 /* Pods-LPDQuoteImagesView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LPDQuoteImagesView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		194E9F9F278215F1302F3B2BB5C0BA36 /* navi_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "navi_back@2x.png"; sourceTree = "<group>"; };
 		19F881D2D1C93D88937F785ADF992972 /* LPDAssetCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LPDAssetCell.m; sourceTree = "<group>"; };
 		1C009D117B87B37466C7F9E0E872483D /* Pods-LPDQuoteImagesView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LPDQuoteImagesView_Example-dummy.m"; sourceTree = "<group>"; };
 		1E2CEADD90739E27F149240D2220DC3B /* Pods-LPDQuoteImagesView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LPDQuoteImagesView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -105,14 +81,9 @@
 		3CEE8FDDFE3AD300AC4273DB0463D182 /* LPDPhotoPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LPDPhotoPickerController.m; sourceTree = "<group>"; };
 		479F2C2DDE30B79635FA75F594ECD7B4 /* LPDImagePickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LPDImagePickerController.m; sourceTree = "<group>"; };
 		4A2BEA17C21C89283E5571FAA1ADBE0C /* Pods-LPDQuoteImagesView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LPDQuoteImagesView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4A3333392CE9D040BE7C76154586CC41 /* photo_original_sel@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "photo_original_sel@2x.png"; sourceTree = "<group>"; };
 		4D4E99C679CF71B95827DFC0BF431FFE /* Pods_LPDQuoteImagesView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LPDQuoteImagesView_Tests.framework; path = "Pods-LPDQuoteImagesView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC7359CAD193EDC1F44AA6074A9474E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5560C88FD0750D931B16CFFFDF3175C6 /* nookDeleteBtn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "nookDeleteBtn@3x.png"; sourceTree = "<group>"; };
-		559CEFA1066AB1F51EB9339E1513ECBA /* photo_number_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "photo_number_icon@2x.png"; sourceTree = "<group>"; };
 		566CA12776E60102007DC0871B031503 /* LPDImagePickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LPDImagePickerController.h; sourceTree = "<group>"; };
-		569BF4441A30E43A44A2623DC12253BE /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; name = Localizable.strings; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		57C5EBB997720E90ABDD35E61B6949D6 /* LPDImagePickerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = LPDImagePickerController.bundle; sourceTree = "<group>"; };
 		5A22DCE8140BCD70038C702871B82F91 /* Pods-LPDQuoteImagesView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LPDQuoteImagesView_Tests-dummy.m"; sourceTree = "<group>"; };
 		5BA1D3136E9605FB8E8421830F1299FF /* LPDPhotoPickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LPDPhotoPickerController.h; sourceTree = "<group>"; };
 		5E5C5EFDB80ABEDA838D2AE00E291C23 /* LPDPhotoPreviewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LPDPhotoPreviewCell.h; sourceTree = "<group>"; };
@@ -120,18 +91,15 @@
 		6828CED6A49D753D731D57BCB810B085 /* LPDQuoteImagesView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LPDQuoteImagesView.h; sourceTree = "<group>"; };
 		69F731972BA45D9AEED44EB7A545705D /* UIImage+MyBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MyBundle.m"; sourceTree = "<group>"; };
 		6EADA0268629280CB651CAE7CF80A1AF /* LPDQuoteImagesView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LPDQuoteImagesView.framework; path = LPDQuoteImagesView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		705021B8388B164E3AC277EA1CB5787E /* TableViewArrow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "TableViewArrow@2x.png"; sourceTree = "<group>"; };
 		729EECBC1A196F09D6CE89ED947F84BB /* Pods-LPDQuoteImagesView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LPDQuoteImagesView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7617E30E987EAC2F1D018203889C601D /* Pods-LPDQuoteImagesView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LPDQuoteImagesView_Example-umbrella.h"; sourceTree = "<group>"; };
 		7ADAFD553B39E13F9AEA0CD5D8E8AA61 /* LPDQuoteImagesView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LPDQuoteImagesView.m; sourceTree = "<group>"; };
-		7CFF983B693123C5C010DDE8CEB09F35 /* nookDeleteBtn.png */ = {isa = PBXFileReference; includeInIndex = 1; path = nookDeleteBtn.png; sourceTree = "<group>"; };
+		8002BF867EF7CCBE0ABEF2A4C62CC870 /* LPDImagePickerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = LPDImagePickerController.bundle; sourceTree = "<group>"; };
 		846A65788D764160D2C6DFA04431C435 /* LPDAssetModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LPDAssetModel.h; sourceTree = "<group>"; };
 		84DEAD58947C4DC18D3255CCE21A6C75 /* LPDVideoPlayerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LPDVideoPlayerController.h; sourceTree = "<group>"; };
 		89B1937EE1984595B35DA9911AFE2180 /* Pods-LPDQuoteImagesView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LPDQuoteImagesView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8AB84ED1CE652E26BBF3537EB8B47C88 /* LPDPhotoArrangeCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LPDPhotoArrangeCell.h; sourceTree = "<group>"; };
 		8C63D57C22C1CCE01FE8EBA91887AC31 /* LPDPhotoPreviewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LPDPhotoPreviewController.h; sourceTree = "<group>"; };
-		8DCE6043598B9EC4C61AAB2C4B9F7E0A /* LPDVideoPreviewPlay@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "LPDVideoPreviewPlay@2x.png"; sourceTree = "<group>"; };
-		92434C3D5E3B9DD554436B4B133E0C95 /* AlbumAddBtn.png */ = {isa = PBXFileReference; includeInIndex = 1; path = AlbumAddBtn.png; sourceTree = "<group>"; };
 		93A182CC19D9E2B4FA4615535EAE0178 /* LPDVideoPlayerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LPDVideoPlayerController.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		958080432648A0609BD230E69828F63B /* UIImage+MyBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+MyBundle.h"; sourceTree = "<group>"; };
@@ -142,27 +110,17 @@
 		A393DFFB13C491967275A05042B3C205 /* Pods-LPDQuoteImagesView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LPDQuoteImagesView_Example.modulemap"; sourceTree = "<group>"; };
 		ABE06652FFD1D973C7CE8FCE6F7EBABD /* LPDQuoteImagesView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LPDQuoteImagesView.modulemap; sourceTree = "<group>"; };
 		ACF8C1AD5D1AB69A3ECB7AD284A51302 /* LPDProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LPDProgressView.m; sourceTree = "<group>"; };
-		AF0C57E536BFD4C36D77B88937A90210 /* preview_original_def@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "preview_original_def@2x.png"; sourceTree = "<group>"; };
 		B0048F99B8CB347934A15F1514E7BD32 /* LPDPhotoPreviewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LPDPhotoPreviewCell.m; sourceTree = "<group>"; };
 		BB67785623943EBE57BE99950951440D /* Pods-LPDQuoteImagesView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LPDQuoteImagesView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C1AE42DE1A0E27489E54D852919189B2 /* AlbumAddBtn@1.5x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "AlbumAddBtn@1.5x.png"; sourceTree = "<group>"; };
 		CA19FA10AA08344B3FCA2376444DA80C /* LPDPhotoPreviewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LPDPhotoPreviewController.m; sourceTree = "<group>"; };
 		CB7913B12388AE1BA08928B4C0997DA5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CECE42714D5A567BF1E0326228856FDD /* LPDVideoPreviewPlayHL@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "LPDVideoPreviewPlayHL@2x.png"; sourceTree = "<group>"; };
 		CEE87A812BBBC062763B636201C8FC5D /* Pods-LPDQuoteImagesView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LPDQuoteImagesView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D06402BF2BBF56CD1796055DAC724906 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		D149FA6DF2E6223761842276A9320208 /* AlbumAddBtn@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "AlbumAddBtn@1x.png"; sourceTree = "<group>"; };
 		D2BBD107560AAB3D55DAF71CE6FE85D1 /* Pods_LPDQuoteImagesView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LPDQuoteImagesView_Example.framework; path = "Pods-LPDQuoteImagesView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D85DFAA0E73AB39C6FE30C30BE36AB5E /* UIView+HandyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+HandyValue.m"; sourceTree = "<group>"; };
-		E027C05AF162D5DDD627D548FCC14A44 /* takePicture@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "takePicture@2x.png"; sourceTree = "<group>"; };
 		E02EE81F269881C1A14AABBB4CBF4641 /* Pods-LPDQuoteImagesView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LPDQuoteImagesView_Example-resources.sh"; sourceTree = "<group>"; };
 		E67D4302A7B9212D8FC31137F6E84DC9 /* UIView+HandyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+HandyValue.h"; sourceTree = "<group>"; };
-		ED8FF7D4D0A0FCD585FA19EDA6C92D64 /* photo_original_def@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "photo_original_def@2x.png"; sourceTree = "<group>"; };
-		F09B9E534C483AAF1FCBC5F8748432E2 /* Root.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Root.plist; sourceTree = "<group>"; };
-		F0FD4225D27A7F3EC336EB88D763A892 /* photo_def_photoPickerVc@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "photo_def_photoPickerVc@2x.png"; sourceTree = "<group>"; };
 		F5CB4476250F6D1E5C1DDE0E421B909B /* Pods-LPDQuoteImagesView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LPDQuoteImagesView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FB710661760D0E2224EA1D902081712E /* photo_sel_photoPickerVc@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "photo_sel_photoPickerVc@2x.png"; sourceTree = "<group>"; };
 		FD3221C180E1ED7D6A45F8FAEEBF2D1A /* Pods-LPDQuoteImagesView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LPDQuoteImagesView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -183,11 +141,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88FC4CBCE2EA596E86D05F766B5CEED5 /* Frameworks */ = {
+		F2568F34C140EACE7BA85591DC656764 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B42F7D6B81CADA995EBE8E199B72297 /* Foundation.framework in Frameworks */,
+				D73E4FD55B743452FEEB8E49A4F21648 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +155,7 @@
 		144819639DCF39C28E3BF695EC93B999 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9A17463379EB9A8E44A92CBE8150B8DE /* LPDQuoteImagesView */,
+				759C1802157EA5A6B8B8D46CFF355A77 /* LPDQuoteImagesView */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -219,34 +177,6 @@
 			);
 			name = LPDQuoteImagesView;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		3C076ED3AA0711AF2FC6C47B0A72D203 /* LPDImagePickerController.bundle */ = {
-			isa = PBXGroup;
-			children = (
-				92434C3D5E3B9DD554436B4B133E0C95 /* AlbumAddBtn.png */,
-				C1AE42DE1A0E27489E54D852919189B2 /* AlbumAddBtn@1.5x.png */,
-				D149FA6DF2E6223761842276A9320208 /* AlbumAddBtn@1x.png */,
-				A658A1ADFDDBC55CB3FCE5B2F031E823 /* Localizable.strings */,
-				8DCE6043598B9EC4C61AAB2C4B9F7E0A /* LPDVideoPreviewPlay@2x.png */,
-				CECE42714D5A567BF1E0326228856FDD /* LPDVideoPreviewPlayHL@2x.png */,
-				194E9F9F278215F1302F3B2BB5C0BA36 /* navi_back@2x.png */,
-				7CFF983B693123C5C010DDE8CEB09F35 /* nookDeleteBtn.png */,
-				03AA2EB19930596B8EBF69DEFE39EB67 /* nookDeleteBtn@2x.png */,
-				5560C88FD0750D931B16CFFFDF3175C6 /* nookDeleteBtn@3x.png */,
-				F0FD4225D27A7F3EC336EB88D763A892 /* photo_def_photoPickerVc@2x.png */,
-				559CEFA1066AB1F51EB9339E1513ECBA /* photo_number_icon@2x.png */,
-				ED8FF7D4D0A0FCD585FA19EDA6C92D64 /* photo_original_def@2x.png */,
-				4A3333392CE9D040BE7C76154586CC41 /* photo_original_sel@2x.png */,
-				FB710661760D0E2224EA1D902081712E /* photo_sel_photoPickerVc@2x.png */,
-				AF0C57E536BFD4C36D77B88937A90210 /* preview_original_def@2x.png */,
-				F09B9E534C483AAF1FCBC5F8748432E2 /* Root.plist */,
-				705021B8388B164E3AC277EA1CB5787E /* TableViewArrow@2x.png */,
-				E027C05AF162D5DDD627D548FCC14A44 /* takePicture@2x.png */,
-				0B62FAFA4A4E38B4C89CEB417BB550E9 /* VideoSendIcon@2x.png */,
-			);
-			name = LPDImagePickerController.bundle;
-			path = LPDImagePickerController.bundle;
 			sourceTree = "<group>";
 		};
 		3DF05F28C5B5C464E08580C1B6D43FFE /* Support Files */ = {
@@ -301,6 +231,15 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		4A177C2D62D2C8C6EFC1E2CBFA502739 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8002BF867EF7CCBE0ABEF2A4C62CC870 /* LPDImagePickerController.bundle */,
+			);
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		72C6B543329F6A01BB832F8D2BD31F48 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -317,6 +256,15 @@
 				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		759C1802157EA5A6B8B8D46CFF355A77 /* LPDQuoteImagesView */ = {
+			isa = PBXGroup;
+			children = (
+				4A177C2D62D2C8C6EFC1E2CBFA502739 /* Assets */,
+			);
+			name = LPDQuoteImagesView;
+			path = LPDQuoteImagesView;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -366,15 +314,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9A17463379EB9A8E44A92CBE8150B8DE /* LPDQuoteImagesView */ = {
-			isa = PBXGroup;
-			children = (
-				FD844718B30D44E1E8E1F822B37EBB56 /* Assets */,
-			);
-			name = LPDQuoteImagesView;
-			path = LPDQuoteImagesView;
-			sourceTree = "<group>";
-		};
 		B1CB9F1D1C0304ACD8C30638421AD7E5 /* Pods-LPDQuoteImagesView_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -401,16 +340,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FD844718B30D44E1E8E1F822B37EBB56 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				57C5EBB997720E90ABDD35E61B6949D6 /* LPDImagePickerController.bundle */,
-				3C076ED3AA0711AF2FC6C47B0A72D203 /* LPDImagePickerController.bundle */,
-			);
-			name = Assets;
-			path = Assets;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -430,50 +359,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D46ECF626FE22F36ED00E460FC36DAEE /* Headers */ = {
+		D6F92804BBA7878FA9D713124CAFEF80 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C19E7796138FEE1C15BDA930EECA9A98 /* LPDAssetCell.h in Headers */,
-				7B9B60AD08CD2435B0864D7E5F2FDF41 /* LPDAssetModel.h in Headers */,
-				D1F78F3FBE4CB67E14AE641A97D95DF4 /* LPDImageManager.h in Headers */,
-				D72355C11C6E7561BEBCAE49B32824E3 /* LPDImagePickerController.h in Headers */,
-				4C05C66AFEFBBD2DC6F7A788560C2EED /* LPDPhotoArrangeCell.h in Headers */,
-				6A28A2E5B7A6081141E8AAC5D29172DA /* LPDPhotoArrangeCVlLayout.h in Headers */,
-				C9491B7519D201E154E58AE00A46ECB6 /* LPDPhotoPickerController.h in Headers */,
-				02F37B1DAC8E674FA92581DB91EB2A5E /* LPDPhotoPreviewCell.h in Headers */,
-				7C7E9BCF4B0A3C61242036DFC3AB59C1 /* LPDPhotoPreviewController.h in Headers */,
-				54E315544754D825F3DA6BF9A3904861 /* LPDProgressView.h in Headers */,
-				3DCBE5302239AB2976499DDD3378CA44 /* LPDQuoteImagesView-umbrella.h in Headers */,
-				A9A0FFCD91F7A8EB3F5DC84FD3106155 /* LPDQuoteImagesView.h in Headers */,
-				5553215E996D0BBCE4734310EF527431 /* LPDVideoPlayerController.h in Headers */,
-				5E08A7BE7868F77764FBFAB53905A142 /* NSBundle+LPDImagePicker.h in Headers */,
-				C461CC4CF054287FE43A60FCE1DA32C5 /* UIImage+MyBundle.h in Headers */,
-				1EF6B1E2F2DBD2C7D10D4853E2165242 /* UIView+HandyValue.h in Headers */,
+				1C5C3F5C983DE2918253147C6B580242 /* LPDAssetCell.h in Headers */,
+				9F95865EC3987CA069F8C44901CECEF4 /* LPDAssetModel.h in Headers */,
+				26ED371D19FACE7CD3C6F642313BF73D /* LPDImageManager.h in Headers */,
+				EFB965CF7FC1B304592F8584AC5B1A48 /* LPDImagePickerController.h in Headers */,
+				AACB2B7C9897EF5CCCEC1B21D52EABC0 /* LPDPhotoArrangeCell.h in Headers */,
+				58132BED6B41F2BAF068B2D3A676E7A6 /* LPDPhotoArrangeCVlLayout.h in Headers */,
+				0313A6FDB095840BC197EF37340E799C /* LPDPhotoPickerController.h in Headers */,
+				17001C0E1216EF4E213A272B7BDFE834 /* LPDPhotoPreviewCell.h in Headers */,
+				5B9512D5ECF7C694AFD617D15DBD7E8C /* LPDPhotoPreviewController.h in Headers */,
+				637754ADCBFEDA0389824B84B5E834EE /* LPDProgressView.h in Headers */,
+				36D932303782F382E554B20D3AC7AA92 /* LPDQuoteImagesView-umbrella.h in Headers */,
+				00F0E86CD7E930C3544E39B2BF204BCC /* LPDQuoteImagesView.h in Headers */,
+				8ACAB64686EAF54C44339815D7EF992E /* LPDVideoPlayerController.h in Headers */,
+				A87DDD6E142461D05D454FB020B2A225 /* NSBundle+LPDImagePicker.h in Headers */,
+				8EC2F8EFD1F09C382BEEA13B1CF04A9F /* UIImage+MyBundle.h in Headers */,
+				FD5A0356848CEF4F24A0CEF2987A98D7 /* UIView+HandyValue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7441ADB504A9DB70157152444A0E6333 /* LPDQuoteImagesView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 00F6B634C6D3EB14036A341A0FAB9E12 /* Build configuration list for PBXNativeTarget "LPDQuoteImagesView" */;
-			buildPhases = (
-				7D6D18698446B260EB990E5B183D0A4B /* Sources */,
-				88FC4CBCE2EA596E86D05F766B5CEED5 /* Frameworks */,
-				D46ECF626FE22F36ED00E460FC36DAEE /* Headers */,
-				E616FE84D4B70C5360D44CC017BB9D39 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = LPDQuoteImagesView;
-			productName = LPDQuoteImagesView;
-			productReference = 6EADA0268629280CB651CAE7CF80A1AF /* LPDQuoteImagesView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		BFFE309078F2D9B54179B0D5C1F7CA02 /* Pods-LPDQuoteImagesView_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACD013C124299E5610BD953C5FCA605D /* Build configuration list for PBXNativeTarget "Pods-LPDQuoteImagesView_Example" */;
@@ -490,6 +401,24 @@
 			name = "Pods-LPDQuoteImagesView_Example";
 			productName = "Pods-LPDQuoteImagesView_Example";
 			productReference = D2BBD107560AAB3D55DAF71CE6FE85D1 /* Pods_LPDQuoteImagesView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D16FF1708A261A6539A8BCBFD42EAB98 /* LPDQuoteImagesView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAEDEB72B4A5FC4F17D628125B663EF8 /* Build configuration list for PBXNativeTarget "LPDQuoteImagesView" */;
+			buildPhases = (
+				1F48485BA451A34D080A6A4C5DA00990 /* Sources */,
+				F2568F34C140EACE7BA85591DC656764 /* Frameworks */,
+				D6F92804BBA7878FA9D713124CAFEF80 /* Headers */,
+				22D52CD7F342ECAD7E8E626CBE5AE2FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LPDQuoteImagesView;
+			productName = LPDQuoteImagesView;
+			productReference = 6EADA0268629280CB651CAE7CF80A1AF /* LPDQuoteImagesView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E049439AE44D6B53536BF03E96ADE0C0 /* Pods-LPDQuoteImagesView_Tests */ = {
@@ -530,7 +459,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7441ADB504A9DB70157152444A0E6333 /* LPDQuoteImagesView */,
+				D16FF1708A261A6539A8BCBFD42EAB98 /* LPDQuoteImagesView */,
 				BFFE309078F2D9B54179B0D5C1F7CA02 /* Pods-LPDQuoteImagesView_Example */,
 				E049439AE44D6B53536BF03E96ADE0C0 /* Pods-LPDQuoteImagesView_Tests */,
 			);
@@ -538,66 +467,45 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E616FE84D4B70C5360D44CC017BB9D39 /* Resources */ = {
+		22D52CD7F342ECAD7E8E626CBE5AE2FA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC7FB699D718BBD8E4EBD2883025EAB5 /* AlbumAddBtn.png in Resources */,
-				AD47BDC4EB6B5A2870B5DCCA9D8274E0 /* AlbumAddBtn@1.5x.png in Resources */,
-				EA0B0B76D92DFFCCB509601041C6F589 /* AlbumAddBtn@1x.png in Resources */,
-				B671F67548035D411AB71C95F02B40BC /* Localizable.strings in Resources */,
-				217D8F62FDA3648A5961CB21EC65E30D /* Localizable.strings in Resources */,
-				295CE28CEF3760AF51ED34238F3AE3B8 /* LPDImagePickerController.bundle in Resources */,
-				3EAD645E573D5B4BFAB8EF82368813B2 /* LPDVideoPreviewPlay@2x.png in Resources */,
-				F5C5ED66A216662D464551F3B1DF1758 /* LPDVideoPreviewPlayHL@2x.png in Resources */,
-				C33327AB5EBBAE181610567F53B6CF34 /* navi_back@2x.png in Resources */,
-				A161465028E24FCC4A0CF3C4597941D7 /* nookDeleteBtn.png in Resources */,
-				4A0865C8B18B877844B25998F30F7553 /* nookDeleteBtn@2x.png in Resources */,
-				B418553B17DF6B7C70266798D82B2585 /* nookDeleteBtn@3x.png in Resources */,
-				F5CB946B8CECD67222F794CBC2F3403F /* photo_def_photoPickerVc@2x.png in Resources */,
-				45C2327B656600D5C6338941A3912B61 /* photo_number_icon@2x.png in Resources */,
-				C1EA03EF875A8AB538ED3ADD997DEF91 /* photo_original_def@2x.png in Resources */,
-				E1DA6B1A116B9B17977752FFD7D6BB3B /* photo_original_sel@2x.png in Resources */,
-				E1DCAC196D91BB4A21383C7ACDA03C6D /* photo_sel_photoPickerVc@2x.png in Resources */,
-				77DE58FC99286A74365DC65575084873 /* preview_original_def@2x.png in Resources */,
-				A65961C4CB815334B9D6D7C435280658 /* Root.plist in Resources */,
-				52C78D48EC72F7282E9E28068FED5777 /* TableViewArrow@2x.png in Resources */,
-				FCA8D8B91F429C4901494766BBC99A98 /* takePicture@2x.png in Resources */,
-				DFAF960E1521AB7EAF0F92253207A9F7 /* VideoSendIcon@2x.png in Resources */,
+				BC5EA81DE8ABDD1B8D3B9C0898F5FF5E /* LPDImagePickerController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1F48485BA451A34D080A6A4C5DA00990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAA732359A6F773005FA049DE5A5152 /* LPDAssetCell.m in Sources */,
+				A5DE006F0856D7A8F7B17B5A0696A18A /* LPDAssetModel.m in Sources */,
+				17A3C738C27D8C86F359CB7A1841F105 /* LPDImageManager.m in Sources */,
+				5E95C609E5B3462B8094D2DB4930D028 /* LPDImagePickerController.m in Sources */,
+				080EEA2137F2CD79EE8EAA19CBD07055 /* LPDPhotoArrangeCell.m in Sources */,
+				F29D2085CBE7CAFE53DD85CA993BE5C2 /* LPDPhotoArrangeCVlLayout.m in Sources */,
+				2EF5CF2EE5F35BC6689DFF0B3FAF1A78 /* LPDPhotoPickerController.m in Sources */,
+				0BBB51D51E6F46393EDE9F6BEC952A7F /* LPDPhotoPreviewCell.m in Sources */,
+				EE6BE6675DB9CE49D240CA692B1C3A04 /* LPDPhotoPreviewController.m in Sources */,
+				78A5818D4E563984EDF2533F9B43F354 /* LPDProgressView.m in Sources */,
+				0520FC2D2383C0CE4728169C5D8B3EBE /* LPDQuoteImagesView-dummy.m in Sources */,
+				2BF58AEE115229528AABE4FB445C18F6 /* LPDQuoteImagesView.m in Sources */,
+				054C33C0970ECAB83E285B4A229B4435 /* LPDVideoPlayerController.m in Sources */,
+				781A8E8A869C9BA41AE61A8A53825297 /* NSBundle+LPDImagePicker.m in Sources */,
+				BB78736BA222E2CF9384336DF40C05DC /* UIImage+MyBundle.m in Sources */,
+				E217B3ED1101DEBCED0D1DCFBF9329A3 /* UIView+HandyValue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		75E3AEFAC7FBAFA5E5913A15C82E3951 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DEB9D2E66445599C20B033D741AE51A5 /* Pods-LPDQuoteImagesView_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7D6D18698446B260EB990E5B183D0A4B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1A7B10C4702F4C41FC40D794D3E5EB3B /* LPDAssetCell.m in Sources */,
-				26C1A92659BFAE6EE795C249E04AD45E /* LPDAssetModel.m in Sources */,
-				5E4AB88D88F677D5F6A2EE1774AF0532 /* LPDImageManager.m in Sources */,
-				907B344F971BAA7A1C0D78F3F9ADB43B /* LPDImagePickerController.m in Sources */,
-				0837FBAF185B6B6B9992234B6184141D /* LPDPhotoArrangeCell.m in Sources */,
-				7FBE643DFA1455D28E07AA37390978FC /* LPDPhotoArrangeCVlLayout.m in Sources */,
-				C1625EB9E04857B7A3ED10B7D1A21C92 /* LPDPhotoPickerController.m in Sources */,
-				F1AAAF51AAB21C7E9D01FA44392BAD40 /* LPDPhotoPreviewCell.m in Sources */,
-				31A70CEE1676FA9F0734437D12008BBC /* LPDPhotoPreviewController.m in Sources */,
-				8CE1D8B9CE3CDC2EC936E414370B1559 /* LPDProgressView.m in Sources */,
-				FA49C66AADC6EFF9D9CFA5668A82BC10 /* LPDQuoteImagesView-dummy.m in Sources */,
-				DF6E979C5B038519024CF09A7D9DFAF3 /* LPDQuoteImagesView.m in Sources */,
-				CA0C8FD60FA31212123D5E36DD683379 /* LPDVideoPlayerController.m in Sources */,
-				ED6F6EFF2ACBEB888B63C7FF498FB35C /* NSBundle+LPDImagePicker.m in Sources */,
-				8076CB897A2D039FC29B72AC92FF1772 /* UIImage+MyBundle.m in Sources */,
-				530D780944FDEB2C77EB6A49C1494D25 /* UIView+HandyValue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,23 +523,10 @@
 		40661D166560730382874B51084B13E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LPDQuoteImagesView;
-			target = 7441ADB504A9DB70157152444A0E6333 /* LPDQuoteImagesView */;
+			target = D16FF1708A261A6539A8BCBFD42EAB98 /* LPDQuoteImagesView */;
 			targetProxy = E60188BD5E8B03F6C8EBE74F6A35DA3A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A658A1ADFDDBC55CB3FCE5B2F031E823 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D06402BF2BBF56CD1796055DAC724906 /* Localizable.strings */,
-				569BF4441A30E43A44A2623DC12253BE /* Localizable.strings */,
-			);
-			name = Localizable.strings;
-			path = .;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0B2C0644903FC94752711837B05466DE /* Debug */ = {
@@ -739,37 +634,6 @@
 			};
 			name = Debug;
 		};
-		83BE397262EDD3BB040F8AFB8F59C7FC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B761DF3C37992C9A388486549BC61F6 /* LPDQuoteImagesView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LPDQuoteImagesView/LPDQuoteImagesView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LPDQuoteImagesView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LPDQuoteImagesView/LPDQuoteImagesView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = LPDQuoteImagesView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -854,7 +718,7 @@
 			};
 			name = Debug;
 		};
-		F9879949C8AE815586FDB92F2D1E2F81 /* Release */ = {
+		D821BEC08B0B9FC13D4DE41118780C16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2B761DF3C37992C9A388486549BC61F6 /* LPDQuoteImagesView.xcconfig */;
 			buildSettings = {
@@ -884,6 +748,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		F56A231FA80BEFB82C0A23610715352E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B761DF3C37992C9A388486549BC61F6 /* LPDQuoteImagesView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LPDQuoteImagesView/LPDQuoteImagesView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LPDQuoteImagesView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LPDQuoteImagesView/LPDQuoteImagesView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LPDQuoteImagesView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		FB3EABA2A9DB0AE0AA01F37D336957E8 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -923,15 +818,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00F6B634C6D3EB14036A341A0FAB9E12 /* Build configuration list for PBXNativeTarget "LPDQuoteImagesView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				83BE397262EDD3BB040F8AFB8F59C7FC /* Debug */,
-				F9879949C8AE815586FDB92F2D1E2F81 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -955,6 +841,15 @@
 			buildConfigurations = (
 				0B2C0644903FC94752711837B05466DE /* Debug */,
 				19003365C6B15EFD064883B6D324D8DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAEDEB72B4A5FC4F17D628125B663EF8 /* Build configuration list for PBXNativeTarget "LPDQuoteImagesView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56A231FA80BEFB82C0A23610715352E /* Debug */,
+				D821BEC08B0B9FC13D4DE41118780C16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

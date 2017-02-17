@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'LPDQuoteImagesView/Classes/**/*'
-  s.resources = 'LPDQuoteImagesView/Assets/**/*'
+  s.resources = 'LPDQuoteImagesView/Assets/LPDImagePickerController.bundle'
   
   # s.resource_bundles = {
   #   'LPDQuoteImagesView' => ['LPDQuoteImagesView/Assets/*.png']

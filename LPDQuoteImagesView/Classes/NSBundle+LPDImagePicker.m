@@ -13,12 +13,10 @@
 + (instancetype)lpd_imagePickerBundle {
     static NSBundle *lpd_Bundle = nil;
     if (lpd_Bundle == nil) {
-        NSString *path = [[NSBundle mainBundle] pathForResource:@"LPDImagePickerController" ofType:@"bundle"];
-        if (!path) {
-            path = [[NSBundle mainBundle] pathForResource:@"LPDImagePickerController" ofType:@"bundle" inDirectory:@"Frameworks/LPDImagePickerController.framework/"];
-        }
-        lpd_Bundle = [NSBundle bundleWithPath:path];
+        NSBundle *bundle = [NSBundle bundleForClass:[LPDImagePickerController class]];
+        lpd_Bundle = [NSBundle bundleWithPath:[NSString stringWithFormat:@"%@/LPDImagePickerController.bundle", bundle.bundlePath]];
     }
+   
     return lpd_Bundle;
 }
 

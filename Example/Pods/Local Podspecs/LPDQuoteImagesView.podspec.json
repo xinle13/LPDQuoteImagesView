@@ -19,5 +19,5 @@
     "ios": "8.0"
   },
   "source_files": "LPDQuoteImagesView/Classes/**/*",
-  "resources": "LPDQuoteImagesView/Assets/**/*"
+  "resources": "LPDQuoteImagesView/Assets/LPDImagePickerController.bundle"
 }
