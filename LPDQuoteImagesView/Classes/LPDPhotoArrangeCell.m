@@ -18,7 +18,7 @@
 - (instancetype)initWithFrame:(CGRect)frame {
     if(self = [super initWithFrame:frame]){
         self.backgroundColor = [UIColor whiteColor];
-        _imageThumbnail = [[UIImageView alloc] initWithFrame:CGRectMake(0,0,self.lpd_width,self.lpd_height)];
+        _imageThumbnail = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.lpd_width, self.lpd_height)];
         _imageThumbnail.backgroundColor = [UIColor colorWithWhite:1 alpha:0.5];
         _imageThumbnail.contentMode = UIViewContentModeScaleToFill;
         _imageThumbnail.layer.cornerRadius = 4;
@@ -28,20 +28,17 @@
         [self addSubview:_imageThumbnail];
         
         _videoThumbnail = [[UIImageView alloc] init];
-
         [_videoThumbnail setImage:[UIImage imageNamedFromMyBundle:@"LPDVideoPreviewPlay"]];
         _videoThumbnail.contentMode = UIViewContentModeScaleToFill;
         _videoThumbnail.hidden = YES;
         [self addSubview:_videoThumbnail];
-        
         _nookDeleteBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-         [self setupDeleteBtn:DEL_BTN_WH];
+        [self setupDeleteBtn:DEL_BTN_WH];
         [self addSubview:_nookDeleteBtn];
-     
-    }
+     }
     return self;
 }
-//*******可以通过类别 重写该方法
+
 - (void)setupDeleteBtn:(CGFloat)width {
     _nookDeleteBtn.frame = CGRectMake(self.frame.size.width - width * 0.75 , -width / 2 + RELATIVE_VALUE(2) , width, width);
     _nookDeleteBtn.alpha = 1.0;
@@ -60,8 +57,6 @@
         return [super hitTest:point withEvent:event];
     }
 }
-
-
 
 - (void)layoutSubviews {
     [super layoutSubviews];

@@ -1,6 +1,6 @@
 //
-//  LPDQuoteSystemImagesView.h
-//  LPDQuoteSystemImagesController
+//  LPDQuoteImagesView.h
+//  LPDQuoteImagesController
 //
 //  Created by Assuner on 2016/12/16.
 //  Copyright © 2016年 Assuner. All rights reserved.
@@ -19,14 +19,12 @@
 #import "LPDVideoPlayerController.h"
 #import "LPDPhotoPreviewController.h"
 
-@protocol LPDQuoteSystemImagesViewDelegate <NSObject>
+@protocol LPDQuoteImagesViewDelegate <NSObject>
 @optional
-
-- (void)doAfterDidSelectedPhotosWithView:(LPDQuoteSystemImagesView *)thisView; 
 
 @end
 
-@interface LPDQuoteSystemImagesView : UIView
+@interface LPDQuoteImagesView : UIView
 
 @property(strong, nonatomic) LPDImagePickerController *lpdImagePickerVc;
 
@@ -41,7 +39,7 @@
 
 @property (strong, nonatomic) UICollectionView *collectionView;  ///选中图片排列集合view
 
-@property (weak, nonatomic) UIViewController<LPDQuoteSystemImagesViewDelegate>* navcDelegate;
+@property (weak, nonatomic) UIViewController<LPDQuoteImagesViewDelegate>* navcDelegate;
 
 - (instancetype)initWithFrame:(CGRect)frame withCountPerRowInView:(NSUInteger)ArrangeCount cellMargin:(CGFloat)cellMargin;
 

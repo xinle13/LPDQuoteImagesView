@@ -1,15 +1,15 @@
 //
-//  LPDQuoteSystemImagesView.m
-//  LPDQuoteSystemImagesController
+//  LPDQuoteImagesView.m
+//  LPDQuoteImagesController
 //
 //  Created by Assuner on 2016/12/16.
 //  Copyright © 2016年 Assuner. All rights reserved.
 //
 
-#import "LPDQuoteSystemImagesView.h"
+#import "LPDQuoteImagesView.h"
 
 
-@interface LPDQuoteSystemImagesView ()<LPDImagePickerControllerDelegate,UICollectionViewDataSource,UICollectionViewDelegate,UIActionSheetDelegate,UIImagePickerControllerDelegate,UIAlertViewDelegate,UINavigationControllerDelegate>
+@interface LPDQuoteImagesView ()<LPDImagePickerControllerDelegate,UICollectionViewDataSource,UICollectionViewDelegate,UIActionSheetDelegate,UIImagePickerControllerDelegate,UIAlertViewDelegate,UINavigationControllerDelegate>
 
 {
     CGFloat _itemWH;
@@ -26,7 +26,7 @@
 
 @end
 
-@implementation LPDQuoteSystemImagesView
+@implementation LPDQuoteImagesView
 
 - (instancetype)initWithFrame:(CGRect)frame withCountPerRowInView:(NSUInteger)ArrangeCount cellMargin:(CGFloat)cellMargin{
     if(self = [super initWithFrame: frame]){
