@@ -2,8 +2,8 @@
 //  UIImage+MyBundle.m
 //  LPDQuoteSystemImagesController
 //
-//  Created by 李永光－饿了么－iOS开发 on 2016/12/19.
-//  Copyright © 2016年 李永光－饿了么－iOS开发. All rights reserved.
+//  Created by assuner on 2016/12/19.
+//  Copyright © assuner 2016年 . All rights reserved.
 //
 
 #import "UIImage+MyBundle.h"
