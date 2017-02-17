@@ -7,8 +7,9 @@
 //
 
 #import "LPDViewController.h"
+#import "LPDQuoteImagesView.h"
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
-#define RELATIVE_VALUE(a) (a * SCREEN_WIDTH / 375)
+
 @interface LPDViewController ()
 
 @end
