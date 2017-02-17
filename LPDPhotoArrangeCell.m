@@ -26,7 +26,6 @@
         _imageThumbnail.layer.borderWidth = 2;
         _imageThumbnail.clipsToBounds = YES;
         [self addSubview:_imageThumbnail];
-        NSLog(@"%f!!!!",DEL_BTN_WH);
         
         _videoThumbnail = [[UIImageView alloc] init];
 
@@ -36,14 +35,30 @@
         [self addSubview:_videoThumbnail];
         
         _nookDeleteBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-       _nookDeleteBtn.frame = CGRectMake(self.frame.size.width-DEL_BTN_WH, 0, DEL_BTN_WH, DEL_BTN_WH);
-        _nookDeleteBtn.imageEdgeInsets = UIEdgeInsetsMake(RELATIVE_VALUE(-12), 0, 0, RELATIVE_VALUE(-12));
-        _nookDeleteBtn.alpha = 1.0;
-        [_nookDeleteBtn setImage:[UIImage imageNamedFromMyBundle:@"nookDeleteBtn"] forState:UIControlStateNormal];
+         [self setupDeleteBtn:DEL_BTN_WH];
         [self addSubview:_nookDeleteBtn];
      
     }
     return self;
+}
+//*******可以通过类别 重写该方法
+- (void)setupDeleteBtn:(CGFloat)width {
+    _nookDeleteBtn.frame = CGRectMake(self.frame.size.width - width * 0.75 , -width / 2 + RELATIVE_VALUE(2) , width, width);
+    _nookDeleteBtn.alpha = 1.0;
+    [_nookDeleteBtn setImage:[UIImage imageNamedFromMyBundle:@"nookDeleteBtn"] forState:UIControlStateNormal];
+}
+
+- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
+    if (!self.isHidden) {
+        CGPoint delBtnTouchPoint = [self convertPoint:point toView:self.nookDeleteBtn];
+        if ( [self.nookDeleteBtn pointInside:delBtnTouchPoint withEvent:event] && !self.nookDeleteBtn.isHidden) {
+            return self.nookDeleteBtn;
+        } else {
+            return [super hitTest:point withEvent:event];
+        }
+    } else {
+        return [super hitTest:point withEvent:event];
+    }
 }
 
 
