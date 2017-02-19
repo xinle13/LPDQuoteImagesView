@@ -63,7 +63,7 @@ NSArray *imageArray = [NSArray arrayWithArray:quoteSystemImagesView.selectedPhot
 
 ## 详细介绍
 
-参见：[http://www.jianshu.com/p/2b9086d2c37b](http://www.jianshu.com/p/2b9086d2c37b)
+参见：[简书](http://www.jianshu.com/p/2b9086d2c37b)
 
 ## 效果图
 
@@ -86,7 +86,7 @@ NSArray *imageArray = [NSArray arrayWithArray:quoteSystemImagesView.selectedPhot
 
 ## Author
 
-Assuner-Lee [assuner@foxmail.com]
+Assuner-Lee [assuner@foxmail.com](assuner@foxmail.com)
 
 ## License
 
