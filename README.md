@@ -9,8 +9,6 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
 ## Installation
 
 LPDQuoteImagesView is available through [CocoaPods](http://cocoapods.org). To install
@@ -88,7 +86,7 @@ NSArray *imageArray = [NSArray arrayWithArray:quoteSystemImagesView.selectedPhot
 
 ## Author
 
-Assuner-Lee
+Assuner-Lee [assuner@foxmail.com]
 
 ## License
 
