@@ -76,7 +76,7 @@ NSArray *imageArray = [NSArray arrayWithArray:quoteSystemImagesView.selectedPhot
 
 导航栏自动适应 App 颜色，选中的视图排列可自由设置，删除带有动画效果，添加到最大数目没有➕，删除就出现。
 [PS: 请在主工程配置 info.list NSPhotoLibraryUsageDescription键值
-Localization native development region 设为China]
+Localization native development region 设为China](http://www.jianshu.com/p/2b9086d2c37b)
 
 ## 感谢
 
