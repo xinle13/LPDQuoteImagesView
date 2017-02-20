@@ -37,7 +37,7 @@ pod "LPDQuoteImagesView"
 
 ```
 LPDQuoteImagesView *quoteImagesView =[[LPDQuoteImagesView alloc] initWithFrame:CGRectMake(x, y, width, hight) withCountPerRowInView:5 cellMargin:12];
-//初始化view的frame, view里每行cell个数， cell间距（上方的图片1 即为quoteSystemImagesView）
+//初始化view的frame, view里每行cell个数， cell间距（上方的图片1 即为quoteImagesView）
 
 quoteImagesView.maxSelectedCount = 6;
 //最大可选照片数
@@ -55,7 +55,7 @@ quoteImagesView.navcDelegate = self;    //self 至少是一个控制器。
 #### 3. 获取引用图片
 
 ```
-NSArray *imageArray = [NSArray arrayWithArray:quoteSystemImagesView.selectedPhotos];
+NSArray *imageArray = [NSArray arrayWithArray:quoteImagesView.selectedPhotos];
 //即可
 ```
 
