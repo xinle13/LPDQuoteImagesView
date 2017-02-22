@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LPDQuoteImagesView'
-  s.version          = '0.2.0'
+  s.version          = '0.3.1'
   s.summary          = '仿微信qq图片选择器 ImagePicker.'
 
 # This description is used to generate tags and improve search results.
