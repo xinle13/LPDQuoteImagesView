@@ -32,7 +32,7 @@
 }
 @property CGRect previousPreheatRect;
 @property (nonatomic, assign) BOOL isSelectOriginalPhoto;
-@property (nonatomic, strong) LPDCollectionView *collectionView;
+@property (nonatomic, strong) LYGCollectionView *collectionView;
 @property (nonatomic, strong) UIImagePickerController *imagePickerVc;
 @end
 
@@ -123,7 +123,7 @@ static CGSize AssetGridThumbnailSize;
     CGFloat top = 44;
     if (iOS7Later) top += 20;
     CGFloat collectionViewHeight = lpdImagePickerVc.showSelectBtn ? self.view.lpd_height - 50 - top : self.view.lpd_height - top;
-    _collectionView = [[LPDCollectionView alloc] initWithFrame:CGRectMake(0, top, self.view.lpd_width, collectionViewHeight) collectionViewLayout:layout];
+    _collectionView = [[LYGCollectionView alloc] initWithFrame:CGRectMake(0, top, self.view.lpd_width, collectionViewHeight) collectionViewLayout:layout];
     _collectionView.backgroundColor = [UIColor whiteColor];
     _collectionView.dataSource = self;
     _collectionView.delegate = self;
@@ -745,7 +745,7 @@ static CGSize AssetGridThumbnailSize;
 
 
 
-@implementation LPDCollectionView
+@implementation LYGCollectionView
 
 - (BOOL)touchesShouldCancelInContentView:(UIView *)view {
     if ( [view isKindOfClass:[UIControl class]]) {

@@ -19,6 +19,6 @@
 
 @end
 
-@interface LPDCollectionView : UICollectionView
+@interface LYGCollectionView : UICollectionView
 
 @end
