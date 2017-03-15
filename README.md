@@ -19,7 +19,7 @@ pod "LPDQuoteImagesView"
 ```
 # LPDQuoteImagesView
 
-`iOS-imagePicker 仿 QQ 仿微信-- pickImage and quote`本库封装于TZImagePicker 只需要几行简单的代码，就可以引入多选照片并引用照片的功能模块，贴上一个view，就获得了全部。所有的功能都集成到了黑盒里，你需要做的只是初始化 quoteview 和取得 quoteview 的已选择图片数组。
+`iOS-imagePicker 仿 QQ 仿微信-- pickImage and quote`  本库封装于TZImagePicker  只需要几行简单的代码，就可以引入多选照片并引用照片的功能模块，贴上一个view，就获得了全部。所有的功能都集成到了黑盒里，你需要做的只是初始化 quoteview 和取得 quoteview 的已选择图片数组。
 ![这是贴上去的 quoteView (红框内)](https://github.com/Assuner-Lee/resource/blob/master/效果图（1）.jpg)
 
 上图就是 quoteView 贴上去的效果，点击可以选择或预览照片，点击右上角删除，可以通过引用这个 view 的 selectedPhotos 属性得到 UIImage 数组，保存或上传!
