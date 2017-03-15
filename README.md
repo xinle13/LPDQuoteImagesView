@@ -79,9 +79,7 @@ NSArray *imageArray = [NSArray arrayWithArray:quoteImagesView.selectedPhotos];
 Localization native development region 设为China](http://www.jianshu.com/p/2b9086d2c37b)
 
 ## 感谢
-
-最后感谢 TZImagePickerController 提供的一些源码！！
-
+本库封装于TZImagePicker,很多业务场景下使用很方便。
 ## 最后
 
 别忘了点个星星哦，谢谢大家！
