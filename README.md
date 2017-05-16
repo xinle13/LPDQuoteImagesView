@@ -37,7 +37,7 @@ pod "LPDQuoteImagesView"
 ```
 LPDQuoteImagesView *quoteImagesView =[[LPDQuoteImagesView alloc] initWithFrame:CGRectMake(x, y, width, hight) withCountPerRowInView:5 cellMargin:12];
 //初始化view的frame, view里每行cell个数， cell间距（上方的图片1 即为quoteImagesView）
-
+#####注：设置frame时，我们可以根据设计人员给的cell的宽度和最大个数、排列，间距去大致计算下quoteview的size.
 quoteImagesView.maxSelectedCount = 6;
 //最大可选照片数
 
