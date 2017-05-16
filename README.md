@@ -57,7 +57,7 @@ quoteImagesView.navcDelegate = self;    //self 至少是一个控制器。
 NSArray *imageArray = [NSArray arrayWithArray:quoteImagesView.selectedPhotos];
 //即可
 ```
-注：quoteImagesView.selectedPhotos为NSArray属性，引用的数组会变化，您可以在需要用到照片的方法里去拿一次照片数组，不可初始化的时候直接引用数组(此时数组为nil)。。。selectedPhotos只能反映当前状态下已选中的照片(例如上传按钮绑定的方法里去拿一次)。
+###### 注：quoteImagesView.selectedPhotos为NSArray属性，引用的数组会变化，您可以在需要用到照片的方法里去拿一次照片数组，不可初始化的时候直接引用数组(此时数组为nil)。。。selectedPhotos只能反映当前状态下已选中的照片(例如上传按钮绑定的方法里去拿一次)。
 
 只需要贴上view，其他的在图库选照片，预览，保存，更新缩略图均不需要依赖新的对象参与，引入模块不需要额外代码，包括collect view ，一切处理响应都封在了quoteview及黑盒中。
 
