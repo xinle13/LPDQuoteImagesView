@@ -243,6 +243,9 @@
         [lpdImagePickerVc showProgressHUD];
         UIImage *image = [info objectForKey:UIImagePickerControllerOriginalImage];
         //  保存图片，获取到asset
+      if (!image) {
+        return;
+      }
         [[LPDImageManager manager] savePhotoWithImage:image completion:^(NSError *error){
             if (error) {
                 [lpdImagePickerVc hideProgressHUD];
