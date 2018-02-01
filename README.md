@@ -30,7 +30,7 @@ git clone git@github.com:Assuner-Lee/LPDQuoteImagesView.git; cd LPDQuoteImagesVi
 LPDQuoteImagesView 可以通过 [CocoaPods](http://cocoapods.org) 进行获取。只需要在你的 Podfile 中添加如下代码就能实现引入：
 
 ```
-pod "EFMarkdown"
+pod "LPDQuoteImagesView"
 ```
 
 ## 使用
