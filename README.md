@@ -5,26 +5,35 @@
 [![License](https://img.shields.io/cocoapods/l/LPDQuoteImagesView.svg?style=flat)](http://cocoapods.org/pods/LPDQuoteImagesView)
 [![Platform](https://img.shields.io/cocoapods/p/LPDQuoteImagesView.svg?style=flat)](http://cocoapods.org/pods/LPDQuoteImagesView)
 
-## Example
+`iOS-imagePicker 仿 QQ 仿微信 -- pickImage and quote` 本库封装于 TZImagePicker 只需要几行简单的代码，就可以引入多选照片并引用照片的功能模块，贴上一个 view，就获得了全部。所有的功能都集成到了黑盒里，你需要做的只是初始化 quoteview 和取得 quoteview 的已选择图片数组。
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## 预览
 
-## Installation
-
-LPDQuoteImagesView is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "LPDQuoteImagesView"
-```
-# LPDQuoteImagesView
-
-`iOS-imagePicker 仿 QQ 仿微信-- pickImage and quote`  本库封装于TZImagePicker  只需要几行简单的代码，就可以引入多选照片并引用照片的功能模块，贴上一个view，就获得了全部。所有的功能都集成到了黑盒里，你需要做的只是初始化 quoteview 和取得 quoteview 的已选择图片数组。
 ![这是贴上去的 quoteView (红框内)](https://github.com/Assuner-Lee/resource/blob/master/效果图（1）.jpg)
 
-上图就是 quoteView 贴上去的效果，点击可以选择或预览照片，点击右上角删除，可以通过引用这个 view 的 selectedPhotos 属性得到 UIImage 数组，保存或上传!
+上图就是 quoteView 贴上去的效果，点击可以选择或预览照片，点击右上角删除，可以通过引用这个 view 的 selectedPhotos 属性得到 UIImage 数组，保存或上传！
 
-## 用法简绍
+## 示例
+
+1. 利用 `git clone` 命令下载本仓库；
+2. 利用 cd 命令切换到 Example 目录下，执行 `pod install` 命令；
+3. 随后打开 `LPDQuoteImagesView.xcworkspace` 编译即可。
+
+或执行以下命令：
+
+```bash
+git clone git@github.com:Assuner-Lee/LPDQuoteImagesView.git; cd LPDQuoteImagesView/Example; pod install; open LPDQuoteImagesView.xcworkspace
+```
+
+## 安装
+
+LPDQuoteImagesView 可以通过 [CocoaPods](http://cocoapods.org) 进行获取。只需要在你的 Podfile 中添加如下代码就能实现引入：
+
+```
+pod "EFMarkdown"
+```
+
+## 使用
 
 #### 1. 引入头文件
 
@@ -61,9 +70,9 @@ NSArray *imageArray = [NSArray arrayWithArray:quoteImagesView.selectedPhotos];
 
 只需要贴上view，其他的在图库选照片，预览，保存，更新缩略图均不需要依赖新的对象参与，引入模块不需要额外代码，包括collect view ，一切处理响应都封在了quoteview及黑盒中。
 
-## 详细介绍
+## 介绍
 
-参见：[简书](http://www.jianshu.com/p/2b9086d2c37b)
+参见：[http://www.jianshu.com/p/2b9086d2c37b](http://www.jianshu.com/p/2b9086d2c37b)
 
 ## 效果图
 
@@ -79,15 +88,21 @@ NSArray *imageArray = [NSArray arrayWithArray:quoteImagesView.selectedPhotos];
 Localization native development region 设为China](http://www.jianshu.com/p/2b9086d2c37b)
 
 ## 感谢
-本库封装于TZImagePicker,很多业务场景下使用很方便。
-## 最后
+
+本库封装于 TZImagePicker，很多业务场景下使用很方便。
+
+## 备注
 
 别忘了点个星星哦，谢谢大家！
 
-## Author
+## 作者
 
 Assuner-Lee [assuner@foxmail.com](assuner@foxmail.com)
 
-## License
+## 协议
 
-LPDQuoteImagesView is available under the MIT license. See the LICENSE file for more info.
+<a href="https://github.com/Assuner-Lee/LPDQuoteImagesView/blob/master/LICENSE">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/License_icon-mit-88x31-2.svg/128px-License_icon-mit-88x31-2.svg.png">
+</a>
+
+LPDQuoteImagesView 基于 MIT 协议进行分发和使用，更多信息参见协议文件。
